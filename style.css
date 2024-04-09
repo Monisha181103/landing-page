@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #68e2e9;
+    color: #f60bbb;
+    padding: 20px;
+    text-decoration: underline;
+    font-family: cursive;
+    font-style: italic;
+  }
+
+  
+  nav ul {
+    list-style: square; ;
+    padding: 5px;
+  }
+  
+  nav ul li {
+    display:flex ;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration:underline;
+    color: #380af2;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #2802ff;
+    text-decoration: underline;
+    font-family: fantasy;
+    font-size: xx-large;
+    font-style: oblique;
+    text-size-adjust:5em;
+    
+  }
+  
+  .feature {
+    border: 1px solid #0909e7;
+    padding: 10px;
+    text-decoration: dotted;
+    font-style: oblique;
+    font-family: cursive;
+    background-color: antiquewhite;
+    color: #380af2;
+  }
+  
+  footer {
+    background-color: #e80d0d;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  /* Dynamic Styles */
+  #Bank {
+    background-image: url('lp.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  #Bank h2 {
+    font-size: 36px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  #Bank p {
+    font-size: 18px;
+  }
+  
+  .btn {
+    background-color: #FF5733;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: indigo;
+  }
+  
+  .btn:hover {
+    background-color: #FF8347;
+  }
+  
